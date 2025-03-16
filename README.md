@@ -1,4 +1,5 @@
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10180/badge)](https://www.bestpractices.dev/projects/10180)
+![OpenSSF Scorecard](https://api.scorecard.dev/github/NickPalceski/Simple-Macro-Track/badge)
 
 # Simple Macro Tracker
 A macro tracker that lets you enter the food you have for breakfast, lunch, and dinner.
