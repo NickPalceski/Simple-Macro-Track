@@ -1,3 +1,5 @@
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10180/badge)](https://www.bestpractices.dev/projects/10180)
+
 # Simple Macro Tracker
 A macro tracker that lets you enter the food you have for breakfast, lunch, and dinner.
 It will then display the total proteins, fats, carbohydrates, and sugar that each meal had.
