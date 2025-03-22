@@ -2,15 +2,18 @@ name: Static Analysis
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
+
+permissions: read-all  # ✅ Top-level restriction
 
 jobs:
   analysis:
+    name: Scorecard analysis
     runs-on: ubuntu-latest
+    permissions:
+      security-events: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
